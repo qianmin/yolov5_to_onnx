@@ -1,3 +1,10 @@
+## 用法
+①训练yolov5s.pt（官方教程）
+② ``` python models/export.py --weights yolov5s.pt --img 640 --batch 1  ```
+
+
+
+
 ## 导出
 根据[这篇博文](https://github.com/hpc203/yolov5-dnn-cpp-python)修改yolov5 repo，导出openCV dnn模块可读的onnx。  <br>
 直接使用官方给出的脚本导出：<br>
