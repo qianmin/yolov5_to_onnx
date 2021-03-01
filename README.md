@@ -3,7 +3,12 @@
 
 ② 安装onnx等requirements
 
-``` python models/export.py --weights yolov5s.pt --img 640 --batch 1  ```
+``` 
+python models/export.py --weights yolov5s.pt --img 640 --batch 1  
+
+python opencv_dnn_infer.py --imgpath data/images/bus.jpg
+```
+
 
 
 
