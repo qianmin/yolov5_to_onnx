@@ -2,6 +2,7 @@
 ①训练yolov5s.pt（官方教程）
 
 ② 安装onnx等requirements
+
 ``` python models/export.py --weights yolov5s.pt --img 640 --batch 1  ```
 
 
